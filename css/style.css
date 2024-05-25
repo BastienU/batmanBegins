@@ -28,7 +28,7 @@ img{
     border: solid 1rem #FFFFFF;
     display: inline-block;
     width: 65rem;
-    margin-left: 43rem;
+    margin-left: 33vw;
     }
 main ol{
     padding-left: 1rem;
@@ -37,7 +37,7 @@ main ol{
     background-color: #FFFFFF;
     display: inline-block;
     line-height: 3.5rem;
-    margin-left: 43rem;
+    margin-left: 33vw;
     width: 65rem;
     max-width: 65rem;
     list-style-type: none;
@@ -47,7 +47,7 @@ main ol{
 main h2{
     padding-left: 1.6rem;
     margin-top: -1rem;
-    margin-left: 43rem;
+    margin-left: 33vw;
     background-color: #FFFFFF;
     max-width: 65rem;
     font-weight: normal;
