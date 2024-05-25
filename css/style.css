@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
+html{
+    background:linear-gradient( to top, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.6) 50%), 
+    url(../asset/cover-batman.jpg)no-repeat fixed center center/cover;
+    font-size: 62.5%;
+}
+body{
+    font: 1.6rem "Monserrat", sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    letter-spacing: .1rem;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p,
+ol,ul,p,figure{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+header h1{
+    margin-top: 0;
+    text-align: center;
+    background-color: #222222;
+    color: #FFFFFF;
+}
+img{
+    margin-top: 2rem;
+    border: solid 1rem #FFFFFF;
+    display: inline-block;
+    width: 65rem;
+    margin-left: 43rem;
+    }
+main ol{
+    padding-left: 1rem;
+    padding-right: 3.4rem;
+    padding-bottom: 1rem;
+    background-color: #FFFFFF;
+    display: inline-block;
+    line-height: 3.5rem;
+    margin-left: 43rem;
+    width: 65rem;
+    max-width: 65rem;
+    list-style-type: none;
+    font-size: 90%;
+}
+
+main h2{
+    padding-left: 1.6rem;
+    margin-top: -1rem;
+    margin-left: 43rem;
+    background-color: #FFFFFF;
+    max-width: 65rem;
+    font-weight: normal;
+}
+/* Franchise */
+main li:nth-child(1)
+{
+    background-color: #FFFFFF;
+    padding-left: 1rem;
+}
+/* Alternance 1/2 */
+main li:nth-child(2n+2)
+{
+    background-color: #E9E9E9;
+    padding-left: 1rem;
+    width: 62.5rem;
+}
+/* Réalisateur et date de sortie */
+main li:nth-child(2n+3)
+{
+    background-color: #FFFFFF;
+    padding-left: 1rem;
+}
+*{
+    box-sizing: border-box;
+}
+footer{
+    color: #FFFFFF;
+}
+
+details summary{ 
+	list-style-type: none;
+	cursor: pointer; 
+}
+details summary::-webkit-details-marker{
+    display: none;
+    
+}
+details summary::before{
+    display: inline-block;
+    content: "+";
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    vertical-align: -.3rem;
+    font-weight: bolder;
+    margin-right: .5rem;
+    transform: rotate(0deg);
+    transition-duration: .5s;
+
+}
+details[open] summary::before{
+    content: "-";
+    transform: rotate(360deg);
+}
