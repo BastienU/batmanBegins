@@ -76,6 +76,7 @@ main li:nth-child(2n+3)
 }
 footer{
     color: #FFFFFF;
+	text-align: center;
 }
 
 details summary{ 
